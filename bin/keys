@@ -7,4 +7,6 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 
+groceries.keys
+pry
 puts get_the_keys(groceries)
