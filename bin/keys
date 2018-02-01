@@ -7,6 +7,6 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 
-keys = groceries.values
+vals = groceries.values.flatten
 pry.binding
 puts get_the_keys(groceries)
