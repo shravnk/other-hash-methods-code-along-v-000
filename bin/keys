@@ -7,6 +7,6 @@ groceries = {
   grains: ["rice", "pasta"]
 }
 
-groceries.keys
-pry
+keys = groceries.keys
+pry.binding
 puts get_the_keys(groceries)
