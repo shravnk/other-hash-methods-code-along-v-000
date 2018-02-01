@@ -7,6 +7,6 @@ groceries = {
   meat: ["chicken", "steak", "salmon"],
   grains: ["rice", "pasta"]
 }
-groceries.values.flatten.min
+
 binding.pry
 puts get_the_min(groceries)
